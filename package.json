@@ -1,0 +1,25 @@
+{
+    "name": "project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "mocha indextest.js --reporter mochawesome",
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "express-handlebars": "^3.0.0",
+        "mochawesome": "^6.1.1",
+        "mongoose": "^5.3.4"
+    },
+    "devDependencies": {
+        "chai": "^3.2.0",
+        "chai-http": "^1.0.0",
+        "mocha": "^8.1.1"
+    }
+}
